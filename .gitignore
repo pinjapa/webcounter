@@ -1,0 +1,7 @@
+geckodriver*.log
+selenium-screenshot-*.png
+log.html
+report.html
+output.xml
+.env
+.venv
