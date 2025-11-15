@@ -16,6 +16,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Install Poetry
+        working-directory: ./webcounter
         run: pip install poetry
       - name: Setup chromedriver
         uses: nanasess/setup-chromedriver@master
