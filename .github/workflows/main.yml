@@ -27,4 +27,5 @@ jobs:
         working-directory: ./webcounter
         run: poetry install
       - name: Run robot tests
+        working-directory: ./webcounter
         run: bash run_robot_tests.sh
